@@ -3,8 +3,8 @@ xolseg Infra repository
 
 #HomeWork #4
 
-```bastion_ip=35.204.157.253
-someinterlnalhost_ip=10.164.0.3```
+```bastion_IP = 35.204.157.253
+someinterlnalhost_ip = 10.164.0.3```
 
 #1
 `$ssh -A -t appuser@35.204.157.253 ssh -A appuser@10.164.0.3`
