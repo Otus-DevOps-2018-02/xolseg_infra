@@ -5,7 +5,7 @@ xolseg Infra repository
 
 bastion_IP = 35.204.157.253
 
-someinterlnalhost_ip = 10.164.0.3
+someinternalhost_IP = 10.164.0.3
 
 
 #1
