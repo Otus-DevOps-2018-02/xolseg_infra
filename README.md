@@ -33,7 +33,9 @@ git clone -b monolith https://github.com/express42/reddit.git && cd reddit && bu
 ```
 
 ##firewall gcloud
+
 ```gcloud compute firewall-rules create default-puma-server --target-tags=puma-server --allow tcp:9292```
+
 ##testapp
 ```
 testapp_IP = 35.195.186.19
