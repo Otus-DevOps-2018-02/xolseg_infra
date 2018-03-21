@@ -33,6 +33,9 @@ sudo apt install -y ruby-full ruby-bundler build-essential mongodb-org; sudo sys
 git clone -b monolith https://github.com/express42/reddit.git && cd reddit && bundle install'
 ```
 
+```
+gcloud compute instances create reddit-app --boot-disk-size=10GB --image-family ubuntu-1604-lts --image-project=ubuntu-os-cloud  --machine-type=g1-small  --tags puma-server  --restart-on-failure --metadata startup-script='./startupscript.sh'
+```
 ##firewall gcloud
 
 ```
