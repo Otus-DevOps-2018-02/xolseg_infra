@@ -4,3 +4,4 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927; sudo
 sudo apt update
 sudo apt install -y ruby-full ruby-bundler build-essential mongodb-org; sudo systemctl enable mongod; sudo systemctl start mongod
 git clone -b monolith https://github.com/express42/reddit.git && cd reddit && bundle install
+puma -d
